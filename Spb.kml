@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Spb.kml</name>
+	<StyleMap id="poly-0097A7-1200-77-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-0097A7-1200-77-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-0097A7-1200-77-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-0097A7-1200-77-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffa79700</color>
+			<width>1.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4da79700</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-0097A7-1200-77-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffa79700</color>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4da79700</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Spb</name>
+		<styleUrl>#poly-0097A7-1200-77-nodesc</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						29.8804477,60.1648401,0 30.0012973,60.04162999999999,0 29.7074131,60.0169327,0 29.6936801,59.9289703,0 29.5975498,59.9317226,0 29.5151523,59.89179100000001,0 29.6936801,59.78829660000001,0 29.957352,59.68309380000001,0 30.3858188,59.67754770000001,0 30.6824497,59.72327610000001,0 30.7346347,59.8338738,0 30.6632236,59.93997829999999,0 30.726395,60.0169327,0 30.608292,60.1785017,0 29.8804477,60.1648401,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
